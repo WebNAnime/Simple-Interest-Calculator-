@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    top: 10cm;
+    position: absolute;
+}
+
+#ans {
+    position: absolute;
+    font-size: 50px;
+    top: 100px;
+    font-family: Fira code;
+    color: red;
+}
+
+@media screen and (max-width: 526px) {
+    input {
+        position: relative;
+        width: 4cm;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    input {
+        position: relative;
+        width: 3cm;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    input {
+        position: relative;
+        width: 2.5cm;
+    }
+}
+
+@media screen and (max-width: 303px) {
+    input {
+        position: relative;
+        width: 2.4cm;
+    }
+}
+
+@media screen and (max-width: 291px) {
+    input {
+        position: relative;
+        width: 1.8cm;
+    }
+}
+
+@media screen and (max-width: 223px) {
+    input {
+        position: relative;
+        width: 1.6cm;
+    }
+}
